@@ -1,6 +1,6 @@
 body {
     font-family: "Raleway", sans-serif;
-    @media screen and (min-width: 992px) and (max-width: 1400px);
+    @media screen and (min-width: 992px);
     margin: 20px 50px 20px 50px;
     border: 1px solid black;
     /*color: #202020;*/
@@ -164,3 +164,125 @@ body {
 }
 
 /*SECTION 1 HEBERGEMENTS*/
+
+.rs-hosting {
+    display: flex;
+    justify-content: space-between;
+}
+.rs-hosting_box {
+    background-color: #f2f2f2;
+    border-radius: 20px;
+}
+.citybox {
+    width: 65%;
+    padding: 0 30px 0 30px;
+    display: flex;
+    flex-flow: column wrap;
+    box-sizing: border-box;
+}
+.boxtitle {
+    height: 10%;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.hosting-city_boxcard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.citycard {
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.city-cardcontent {
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.cardlink {
+    color: inherit;
+    text-decoration: none;
+}
+.city-cardpict {
+    width: 100%;
+    height: 8rem;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+.cardname {
+    font-size: 1rem;
+    font-weight: bold;
+}
+.city-carddescription {
+    margin: 5px;
+}
+.cardprice {
+    font-size: 0.8rem;
+}
+.hosting-boxfoot {
+    height: 10%;
+    font-size: 0.7em;
+}
+
+.cardrates {
+    color: #0065fc;
+}
+.stargrey {
+    color: palevioletred;
+}
+.popbox {
+    width: 33%;
+    padding: 0 30px 30px 30px;
+    display: flex;
+    flex-flow: column wrap;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.popboxtitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+}
+.hosting-pop_boxcard {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    box-sizing: border-box;
+}
+.popcard {
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.pop-cardcontent {
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+}
+.pop-carddesciption_box {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 100%;
+}
+
+.poprate {
+}
+.pop-cardpict {
+    width: 40%;
+    height: 8rem;
+    object-fit: cover;
+    border-radius: 15px 0 0 15px;
+}
