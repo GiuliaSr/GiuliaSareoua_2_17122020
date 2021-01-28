@@ -1,12 +1,12 @@
 body {
     font-family: "Raleway", sans-serif;
-    @media screen and (min-width: 992px);
     margin: 20px 50px 20px 50px;
-    border: 1px solid black;
+    border: 1px solid transparent;
     /*color: #202020;*/
 }
 * {
     font-family: "Raleway", sans-serif;
+    @media screen and (min-width: 992px);
 }
 
 /*HEADER*/
@@ -52,7 +52,7 @@ body {
     display: flex;
     height: 35px;
     border: transparent 1px solid;
-    width: 30%;
+    width: 300px;
 }
 
 .research-bar_iconbox {
@@ -226,6 +226,7 @@ body {
 }
 .hosting-boxfoot {
     height: 10%;
+    width: 100%;
     font-size: 0.7em;
 }
 
@@ -285,4 +286,71 @@ body {
     height: 8rem;
     object-fit: cover;
     border-radius: 15px 0 0 15px;
+}
+
+/*SECTION 2 ACTIVITIES*/
+.rs-activities {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto 14rem 2rem 2rem 2rem 14rem;
+    column-gap: 2rem;
+}
+.actboxtitle {
+    grid-column: -1 / 1;
+    grid-row: 1;
+}
+
+.actcard {
+    border: 1px solid #f2f2f2;
+    border-radius: 20px;
+}
+.actcard1 {
+    grid-column: 1;
+    grid-row: 2/7;
+}
+.actcard2 {
+    grid-column: 2;
+    grid-row: 2/5;
+}
+.actcard3 {
+    grid-column: 2/3;
+    grid-row: 6/7;
+}
+.actcard4 {
+    grid-column: 3;
+    grid-row: 2/7;
+}
+.actcard5 {
+    grid-column: 4;
+    grid-row: 2/3;
+}
+.actcard6 {
+    grid-column: 4;
+    grid-row: 4/7;
+}
+.act-cardcontent {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+}
+.act-cardpict {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.act-carddescription {
+    display: flex;
+    background-color: #fff;
+    border-radius: 0 0 20px 20px;
+    height: 4rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    padding-left: 1rem;
 }
