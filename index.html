@@ -26,12 +26,12 @@
             <nav class="rs-header_nav">
                 <ul class="rs-header_nav">
                     <li class="rs-header-nav_items">
-                        <a class="rs-header-nav_links" href="#hebergements"
+                        <a class="rs-header-nav_links" href="#ancre1"
                             >Hébergements</a
                         >
                     </li>
                     <li class="rs-header-nav_items">
-                        <a class="rs-header-nav_links" href="#activites">
+                        <a class="rs-header-nav_links" href="#ancre2">
                             Activités</a
                         >
                     </li>
@@ -43,7 +43,7 @@
         </header>
 
         <main class="rs-homepage">
-            <div class="rs-researchbox">
+            <section class="rs-searchbox">
                 <h1 class="research_title">
                     Trouvez votre hébergement pour des vacances de rêve
                 </h1>
@@ -68,230 +68,268 @@
                     />
                 </form>
 
-                <div class="research-options_box">
-                    <h2 class="research-options_title">Filtres</h2>
+                <ul class="search-options_box">
+                    <li class="search-filters_box">
+                        <h2 class="search_filtername filtertitle">Filtres</h2>
+                    </li>
+                    <li class="search-filters_box search_filters">
+                        <i class="fas fa-money-bill-wave search_icone"></i>
+                        <h2 class="search_filtername">Économique</h2>
+                    </li>
+                    <li class="search-filters_box search_filters">
+                        <i class="fas fa-child search_icone"></i>
+                        <h2 class="search_filtername">Familial</h2>
+                    </li>
+                    <li class="search-filters_box search_filters">
+                        <i class="fas fa-heart search_icone"></i>
+                        <h2 class="search_filtername">Romantique</h2>
+                    </li>
+                    <li class="search-filters_box search_filters">
+                        <i class="fas fa-dog search_icone"></i>
+                        <h2 class="search_filtername">Animaux autorisés</h2>
+                    </li>
+                </ul>
 
-                    <ul class="research-options_boxfilters">
-                        <li class="research-options_filters">
-                            <i class="fas fa-money-bill-wave"></i>
-                            <h2 class="research-options_filtersnames">
-                                Économique
-                            </h2>
-                        </li>
-                        <li class="research-options_filters">
-                            <i class="fas fa-child"></i>
-                            <h2 class="research-options_filtersnames">
-                                Familial
-                            </h2>
-                        </li>
-                        <li class="research-options_filters">
-                            <i class="fas fa-heart"></i>
-                            <h2 class="research-options_filtersnames">
-                                Romantique
-                            </h2>
-                        </li>
-                        <li class="research-options_filters">
-                            <i class="fas fa-dog"></i>
-                            <h2 class="research-options_filtersnames">
-                                Animaux autorisés
-                            </h2>
-                        </li>
-                    </ul>
-                </div>
-                <div class="research-options_information">
-                    <i class="fas fa-info"></i>
+                <div class="search_information">
+                    <i class="fas fa-info information_icone"></i>
                     <p class="research_description">
                         Plus de 500 logements sont disponibles dans cette ville
                     </p>
                 </div>
-            </div>
+            </section>
 
-            <section class="rs-hosting">
+            <section class="rs-hosting" id="ancre1">
                 <div class="rs-hosting_box citybox">
                     <header class="boxtitle hostingboxtitle">
                         <h2>Hébergements à Marseille</h2>
                     </header>
-                    <div class="hosting-city_boxcard">
-                        <article class="citycard">
-                            <a
-                                class="cardlink"
-                                href="liens_html/section1/lien1.html"
-                            >
-                                <figure class="city-cardcontent">
-                                    <img
-                                        class="city-cardpict"
-                                        src="images/desktop/hebergements_large/1_auberge_cannebiere.jpg"
-                                        alt="Photographie d'une chambre de l'auberge la Cannebière"
-                                    />
-                                    <figcaption
-                                        class="city-carddescription cardname"
+                    <article class="boxcard">
+                        <a
+                            class="cardlink"
+                            href="liens_html/section1/lien1.html"
+                        >
+                            <figure class="city-cardcontent">
+                                <img
+                                    class="city-cardpict"
+                                    src="images/desktop/hebergements_large/1_auberge_cannebiere.jpg"
+                                    alt="Photographie d'une chambre de l'auberge la Cannebière"
+                                />
+                                <figcaption
+                                    class="city-carddescription-content"
+                                >
+                                    <h3
+                                        class="hosting-carddescription cardname"
                                     >
                                         Auberge la Cannebière
-                                    </figcaption>
-                                    <p class="city-carddescription cardprice">
+                                    </h3>
+                                    <p
+                                        class="hosting-carddescription cardprice"
+                                    >
                                         Nuit à partir de 25€
                                     </p>
-                                    <div class="city-carddescription cardrates">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
+                                    <div
+                                        class="hosting-carddescription cardrates"
+                                    >
+                                        <i class="fas fa-star bluestar"></i>
+                                        <i class="fas fa-star bluestar"></i>
+                                        <i class="fas fa-star bluestar"></i>
+                                        <i class="fas fa-star bluestar"></i>
+                                        <i class="fas fa-star greystar"></i>
                                     </div>
-                                </figure>
-                            </a>
-                        </article>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </article>
 
-                        <article class="citycard">
-                            <a
-                                class="cardlink"
-                                href="liens_html/section1/lien2.html"
-                            >
-                                <figure class="city-cardcontent">
-                                    <img
-                                        class="city-cardpict"
-                                        src="images/desktop/hebergements_large/2_hotel_port.jpg"
-                                        alt="Photographie d'une chambre de l'hôtel du Port"
-                                    />
-                                    <figcaption
-                                        class="city-carddescription cardname"
+                    <article class="boxcard">
+                        <a
+                            class="cardlink"
+                            href="liens_html/section1/lien2.html"
+                        >
+                            <figure class="city-cardcontent">
+                                <img
+                                    class="city-cardpict"
+                                    src="images/desktop/hebergements_large/2_hotel_port.jpg"
+                                    alt="Photographie d'une chambre de l'hôtel du Port"
+                                />
+                                <figcaption
+                                    class="city-carddescription-content"
+                                >
+                                    <h3
+                                        class="hosting-carddescription cardname"
                                     >
                                         Hôtel du port
-                                    </figcaption>
-                                    <p class="city-carddescription cardprice">
+                                    </h3>
+                                    <p
+                                        class="hosting-carddescription cardprice"
+                                    >
                                         Nuit à partir de 52€
                                     </p>
-                                    <div class="city-carddescription cardrates">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
+                                    <div
+                                        class="hosting-carddescription cardrates"
+                                    >
+                                        <i class="fas fa-star bluestar"></i>
+                                        <i class="fas fa-star bluestar"></i>
+                                        <i class="fas fa-star bluestar"></i>
+                                        <i class="fas fa-star bluestar"></i>
+                                        <i class="fas fa-star bluestar"></i>
                                     </div>
-                                </figure>
-                            </a>
-                        </article>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </article>
 
-                        <article class="citycard">
-                            <a
-                                class="cardlink"
-                                href="liens_html/section1/lien3.html"
-                            >
-                                <figure class="city-cardcontent">
-                                    <img
-                                        class="city-cardpict"
-                                        src="images/desktop/hebergements_large/3_hotel_mouettes.jpg"
-                                        alt="Photographie d'une chambre de l'hôtel les Mouettes"
-                                    />
-                                    <figcaption
-                                        class="city-carddescription cardname"
+                    <article class="boxcard">
+                        <a
+                            class="cardlink"
+                            href="liens_html/section1/lien3.html"
+                        >
+                            <figure class="city-cardcontent">
+                                <img
+                                    class="city-cardpict"
+                                    src="images/desktop/hebergements_large/3_hotel_mouettes.jpg"
+                                    alt="Photographie d'une chambre de l'hôtel les Mouettes"
+                                />
+                                <figcaption
+                                    class="city-carddescription-content"
+                                >
+                                    <h3
+                                        class="hosting-carddescription cardname"
                                     >
                                         Hôtel Les mouettes
-                                    </figcaption>
-                                    <p class="city-carddescription cardprice">
+                                    </h3>
+                                    <p
+                                        class="hosting-carddescription cardprice"
+                                    >
                                         Nuit à partir de 76€
                                     </p>
-                                    <div class="city-carddescription cardrates">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="far fa-star"></i>
+                                    <div
+                                        class="hosting-carddescription cardrates"
+                                    >
+                                        <i class="fas fa-star bluestar"></i>
+                                        <i class="fas fa-star bluestar"></i>
+                                        <i class="fas fa-star bluestar"></i>
+                                        <i class="fas fa-star bluestar"></i>
+                                        <i class="fas fa-star greystar"></i>
                                     </div>
-                                </figure>
-                            </a>
-                        </article>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </article>
 
-                        <article class="citycard">
-                            <a
-                                class="cardlink"
-                                href="liens_html/section1/lien4.html"
-                            >
-                                <figure class="city-cardcontent">
-                                    <img
-                                        class="city-cardpict"
-                                        src="images/desktop/hebergements_large/4_hotel_mer.jpg"
-                                        alt="Photographie d'une chambre de l'hôtel de la Mer"
-                                    />
-                                    <figcaption
-                                        class="city-carddescription cardname"
+                    <article class="boxcard">
+                        <a
+                            class="cardlink"
+                            href="liens_html/section1/lien4.html"
+                        >
+                            <figure class="city-cardcontent">
+                                <img
+                                    class="city-cardpict"
+                                    src="images/desktop/hebergements_large/4_hotel_mer.jpg"
+                                    alt="Photographie d'une chambre de l'hôtel de la Mer"
+                                />
+                                <figcaption
+                                    class="city-carddescription-content"
+                                >
+                                    <h3
+                                        class="hosting-carddescription cardname"
                                     >
                                         Hôtel de la mer
-                                    </figcaption>
-                                    <p class="city-carddescription cardprice">
+                                    </h3>
+                                    <p
+                                        class="hosting-carddescription cardprice"
+                                    >
                                         Nuit à partir de 46€
                                     </p>
-                                    <div class="city-carddescription cardrates">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                        <i class="far fa-star"></i>
+                                    <div
+                                        class="hosting-carddescription cardrates"
+                                    >
+                                        <i class="fas fa-star bluestar"></i>
+                                        <i class="fas fa-star bluestar"></i>
+                                        <i class="fas fa-star bluestar"></i>
+                                        <i class="fas fa-star greystar"></i>
+                                        <i class="fas fa-star greystar"></i>
                                     </div>
-                                </figure>
-                            </a>
-                        </article>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </article>
 
-                        <article class="citycard">
-                            <a
-                                class="cardlink"
-                                href="liens_html/section1/lien5.html"
-                            >
-                                <figure class="city-cardcontent">
-                                    <img
-                                        class="city-cardpict"
-                                        src="images/desktop/hebergements_large/5_auberge_panier.jpg"
-                                        alt="Photographie d'une chambre de l'auberge le Panier"
-                                    />
-                                    <figcaption
-                                        class="city-carddescription cardname"
+                    <article class="boxcard">
+                        <a
+                            class="cardlink"
+                            href="liens_html/section1/lien5.html"
+                        >
+                            <figure class="city-cardcontent">
+                                <img
+                                    class="city-cardpict"
+                                    src="images/desktop/hebergements_large/5_auberge_panier.jpg"
+                                    alt="Photographie d'une chambre de l'auberge le Panier"
+                                />
+                                <figcaption
+                                    class="city-carddescription-content"
+                                >
+                                    <h3
+                                        class="hosting-carddescription cardname"
                                     >
                                         Auberge le Panier
-                                    </figcaption>
-                                    <p class="city-carddescription cardprice">
+                                    </h3>
+                                    <p
+                                        class="hosting-carddescription cardprice"
+                                    >
                                         Nuit à partir de 23€
                                     </p>
-                                    <div class="city-carddescription cardrates">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="far fa-star"></i>
+                                    <div
+                                        class="hosting-carddescription cardrates"
+                                    >
+                                        <i class="fas fa-star bluestar"></i>
+                                        <i class="fas fa-star bluestar"></i>
+                                        <i class="fas fa-star bluestar"></i>
+                                        <i class="fas fa-star bluestar"></i>
+                                        <i class="fas fa-star greystar"></i>
                                     </div>
-                                </figure>
-                            </a>
-                        </article>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </article>
 
-                        <article class="citycard">
-                            <a
-                                class="cardlink"
-                                href="liens_html/section1/lien6.html"
-                            >
-                                <figure class="city-cardcontent">
-                                    <img
-                                        class="city-cardpict"
-                                        src="images/desktop/hebergements_large/6_hotel_amina.jpg"
-                                        alt="Photographie d'une chambre de l'hôtel chez Amina"
-                                    />
-                                    <figcaption
-                                        class="city-carddescription cardname"
+                    <article class="boxcard">
+                        <a
+                            class="cardlink"
+                            href="liens_html/section1/lien6.html"
+                        >
+                            <figure class="city-cardcontent">
+                                <img
+                                    class="city-cardpict"
+                                    src="images/desktop/hebergements_large/6_hotel_amina.jpg"
+                                    alt="Photographie d'une chambre de l'hôtel chez Amina"
+                                />
+                                <figcaption
+                                    class="city-carddescription-content"
+                                >
+                                    <h3
+                                        class="hosting-carddescription cardname"
                                     >
                                         Hôtel chez Amina
-                                    </figcaption>
-                                    <p class="city-carddescription cardprice">
+                                    </h3>
+                                    <p
+                                        class="hosting-carddescription cardprice"
+                                    >
                                         Nuit à partir de 96€
                                     </p>
-                                    <div class="city-carddescription cardrates">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
+                                    <div
+                                        class="hosting-carddescription cardrates"
+                                    >
+                                        <i class="fas fa-star bluestar"></i>
+                                        <i class="fas fa-star bluestar"></i>
+                                        <i class="fas fa-star bluestar"></i>
+                                        <i class="fas fa-star bluestar"></i>
+                                        <i class="fas fa-star bluestar"></i>
                                     </div>
-                                </figure>
-                            </a>
-                        </article>
-                    </div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </article>
                     <footer class="hosting-boxfoot">
                         <h2>Afficher plus</h2>
                     </footer>
@@ -302,122 +340,122 @@
                         <h2>Les plus populaires</h2>
                         <i class="fas fa-chart-line"></i>
                     </header>
-                    <div class="hosting-pop_boxcard">
-                        <article class="popcard">
-                            <a
-                                class="cardlink"
-                                href="liens_html/section1/lien7.html"
-                            >
-                                <figure class="pop-cardcontent">
-                                    <img
-                                        class="pop-cardpict"
-                                        src="images/desktop/hebergements_large/7_hotel_soleil.jpg"
-                                        alt="Photographie d'une chambre de l'hôtel Le soleil du matin"
-                                    />
-                                    <div class="pop-carddesciption_box">
-                                        <figcaption
-                                            class="pop-carddescription cardname"
-                                        >
-                                            Hôtel Le soleil du matin
-                                        </figcaption>
-                                        <p
-                                            class="pop-carddescription cardprice"
-                                        >
-                                            Nuit à partir de 128€
-                                        </p>
-                                        <div
-                                            class="pop-carddescription poprate cardrates5"
-                                        >
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                        </div>
+                    <article class="boxcard">
+                        <a
+                            class="cardlink"
+                            href="liens_html/section1/lien7.html"
+                        >
+                            <figure class="pop-cardcontent">
+                                <img
+                                    class="pop-cardpict"
+                                    src="images/desktop/hebergements_large/7_hotel_soleil.jpg"
+                                    alt="Photographie d'une chambre de l'hôtel Le soleil du matin"
+                                />
+
+                                <figcaption class="pop-carddescription-content">
+                                    <h3
+                                        class="hosting-carddescription cardname"
+                                    >
+                                        Hôtel Le soleil du matin
+                                    </h3>
+                                    <p
+                                        class="hosting-carddescription cardprice"
+                                    >
+                                        Nuit à partir de 128€
+                                    </p>
+                                    <div
+                                        class="hosting-carddescription poprate"
+                                    >
+                                        <i class="fas fa-star bluestar"></i>
+                                        <i class="fas fa-star bluestar"></i>
+                                        <i class="fas fa-star bluestar"></i>
+                                        <i class="fas fa-star bluestar"></i>
+                                        <i class="fas fa-star bluestar"></i>
                                     </div>
-                                </figure>
-                            </a>
-                        </article>
-                        <article class="popcard">
-                            <a
-                                class="cardlink"
-                                href="liens_html/section1/lien8.html"
-                            >
-                                <figure class="pop-cardcontent">
-                                    <img
-                                        class="pop-cardpict"
-                                        src="images/desktop/hebergements_large/8_chambres_hotes.jpg"
-                                        alt="Photographie d'une chambre des chambres d'hôtes Au coeur de l'eau"
-                                    />
-                                    <div class="pop-carddesciption_box">
-                                        <figcaption
-                                            class="pop-carddescription cardname"
-                                        >
-                                            Au coeur de l'eau Chambres d'hôtes
-                                        </figcaption>
-                                        <p
-                                            class="pop-carddescription cardprice"
-                                        >
-                                            Nuit à partir de 71€
-                                        </p>
-                                        <div
-                                            class="pop-carddescription poprate cardrates4"
-                                        >
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="far fa-star"></i>
-                                        </div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </article>
+                    <article class="boxcard">
+                        <a
+                            class="cardlink"
+                            href="liens_html/section1/lien8.html"
+                        >
+                            <figure class="pop-cardcontent">
+                                <img
+                                    class="pop-cardpict"
+                                    src="images/desktop/hebergements_large/8_chambres_hotes.jpg"
+                                    alt="Photographie d'une chambre des chambres d'hôtes Au coeur de l'eau"
+                                />
+
+                                <figcaption class="pop-carddescription-content">
+                                    <h3
+                                        class="hosting-carddescription cardname"
+                                    >
+                                        Au coeur de l'eau Chambres d'hôtes
+                                    </h3>
+                                    <p
+                                        class="hosting-carddescription cardprice"
+                                    >
+                                        Nuit à partir de 71€
+                                    </p>
+                                    <div
+                                        class="hosting-carddescription poprate"
+                                    >
+                                        <i class="fas fa-star bluestar"></i>
+                                        <i class="fas fa-star bluestar"></i>
+                                        <i class="fas fa-star bluestar"></i>
+                                        <i class="fas fa-star bluestar"></i>
+                                        <i class="fas fa-star greystar"></i>
                                     </div>
-                                </figure>
-                            </a>
-                        </article>
-                        <article class="popcard">
-                            <a
-                                class="cardlink"
-                                href="liens_html/section1/lien9.html"
-                            >
-                                <figure class="pop-cardcontent">
-                                    <img
-                                        class="pop-cardpict"
-                                        src="images/desktop/hebergements_large/9_hotel_bleu.jpg"
-                                        alt="Photographie d'une chambre de l'hôtel Tout bleu et Blanc"
-                                    />
-                                    <div class="pop-carddesciption_box">
-                                        <figcaption
-                                            class="pop-carddescription cardname"
-                                        >
-                                            Hôtel Tout bleu et Blanc
-                                        </figcaption>
-                                        <p
-                                            class="pop-carddescription cardprice"
-                                        >
-                                            Nuit à partir de 68€
-                                        </p>
-                                        <div
-                                            class="pop-carddescription poprate cardrates4"
-                                        >
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="far fa-star"></i>
-                                        </div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </article>
+                    <article class="boxcard">
+                        <a
+                            class="cardlink"
+                            href="liens_html/section1/lien9.html"
+                        >
+                            <figure class="pop-cardcontent">
+                                <img
+                                    class="pop-cardpict"
+                                    src="images/desktop/hebergements_large/9_hotel_bleu.jpg"
+                                    alt="Photographie d'une chambre de l'hôtel Tout bleu et Blanc"
+                                />
+
+                                <figcaption class="pop-carddescription-content">
+                                    <h3
+                                        class="hosting-carddescription cardname"
+                                    >
+                                        Hôtel Tout bleu et Blanc
+                                    </h3>
+                                    <p
+                                        class="hosting-carddescription cardprice"
+                                    >
+                                        Nuit à partir de 68€
+                                    </p>
+                                    <div
+                                        class="hosting-carddescription poprate"
+                                    >
+                                        <i class="fas fa-star bluestar"></i>
+                                        <i class="fas fa-star bluestar"></i>
+                                        <i class="fas fa-star bluestar"></i>
+                                        <i class="fas fa-star bluestar"></i>
+                                        <i class="fas fa-star greystar"></i>
                                     </div>
-                                </figure>
-                            </a>
-                        </article>
-                    </div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </article>
                 </aside>
             </section>
 
-            <section class="rs-activities">
+            <section class="rs-activities" id="ancre2">
                 <header class="boxtitle actboxtitle">
                     <h2>Activités à Marseille</h2>
                 </header>
-                <!--<div class="act_boxcard"></div>-->
-                <article class="actcard actcard1">
+                <article class="boxcard actcard1">
                     <a class="cardlink" href="liens_html/section2/lien2_1.html">
                         <figure class="act-cardcontent">
                             <img
@@ -427,13 +465,13 @@
                             />
 
                             <figcaption class="act-carddescription cardname">
-                                Vieux Port
+                                <h3 class="cardname">Vieux Port</h3>
                             </figcaption>
                         </figure>
                     </a>
                 </article>
 
-                <article class="actcard actcard2">
+                <article class="boxcard actcard2">
                     <a class="cardlink" href="liens_html/section2/lien2_2.html">
                         <figure class="act-cardcontent">
                             <img
@@ -442,12 +480,12 @@
                                 alt="Photographie d'une vue du Fort Pomègues"
                             />
                             <figcaption class="act-carddescription cardname">
-                                Fort Pomègues
+                                <h3 class="cardname">Fort Pomègues</h3>
                             </figcaption>
                         </figure>
                     </a>
                 </article>
-                <article class="actcard actcard3">
+                <article class="boxcard actcard3">
                     <a class="cardlink" href="liens_html/section2/lien2_3.html">
                         <figure class="act-cardcontent">
                             <img
@@ -456,12 +494,12 @@
                                 alt="Photographie d'une vue des Îles du Frioul"
                             />
                             <figcaption class="act-carddescription cardname">
-                                Îles du Frioul
+                                <h3 class="cardname">Îles du Frioul</h3>
                             </figcaption>
                         </figure>
                     </a>
                 </article>
-                <article class="actcard actcard4">
+                <article class="boxcard actcard4">
                     <a class="cardlink" href="liens_html/section2/lien2_4.html">
                         <figure class="act-cardcontent">
                             <img
@@ -470,12 +508,14 @@
                                 alt="Photographie d'une vue du Parc National des Calanques"
                             />
                             <figcaption class="act-carddescription cardname">
-                                Parc National des Calanques
+                                <h3 class="cardname">
+                                    Parc National des Calanques
+                                </h3>
                             </figcaption>
                         </figure>
                     </a>
                 </article>
-                <article class="actcard actcard5">
+                <article class="boxcard actcard5">
                     <a class="cardlink" href="liens_html/section2/lien2_5.html">
                         <figure class="act-cardcontent">
                             <img
@@ -484,12 +524,12 @@
                                 alt="Photographie d'une vue de Notre-Dame-de-la-Garde"
                             />
                             <figcaption class="act-carddescription cardname">
-                                Notre-Dame-de-la-Garde
+                                <h3 class="cardname">Notre-Dame-de-la-Garde</h3>
                             </figcaption>
                         </figure>
                     </a>
                 </article>
-                <article class="actcard actcard6">
+                <article class="boxcard actcard6">
                     <a class="cardlink" href="liens_html/section2/lien2_6.html">
                         <figure class="act-cardcontent">
                             <img
@@ -498,7 +538,7 @@
                                 alt="Photographie d'une vue du Parc Longchamp"
                             />
                             <figcaption class="act-carddescription cardname">
-                                Parc Longchamp
+                                <h3 class="cardname">Parc Longchamp</h3>
                             </figcaption>
                         </figure>
                     </a>
