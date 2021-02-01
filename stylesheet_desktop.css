@@ -1,8 +1,101 @@
+@media screen and (min-width: 1270px) {
+    /*HEADER*/
+    .rs-header {
+        justify-content: space-between;
+        align-items: center;
+    }
+    .rs-header-nav_items {
+        margin: 0 3rem;
+    }
+    .inscription-mobile {
+        display: none;
+    }
+    .rs-header-nav_links:hover {
+        color: #0065fc;
+        border-top: 1px solid #0065fc;
+        padding-top: 15px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1269px) {
+    /*HEADER*/
+    .rs-header {
+        flex-flow: column wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .inscription-mobile {
+        display: none;
+    }
+    .rs-header_nav {
+        width: 100%;
+        justify-content: space-evenly;
+        padding: 0;
+    }
+    .rs-header-nav_items {
+        width: 33%;
+        height: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .rs-header-nav_links:hover {
+        color: #0065fc;
+        height: inherit;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid #0065fc;
+    }
+}
+@media screen and (max-device-width: 480px) {
+    /*HEADER*/
+    .rs-header {
+        flex-flow: column wrap;
+    }
+    .rs-mobile_header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .inscription-mobile {
+        color: #0065fc;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    .inscription {
+        display: none;
+    }
+    .rs-header_nav {
+        margin: auto;
+        width: 100%;
+        padding: 0;
+    }
+    .rs-header-nav_items_mobile {
+        width: 50%;
+        height: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .rs-header-nav_links:hover {
+        color: #0065fc;
+        height: inherit;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid #0065fc;
+    }
+}
+
+/*TOUT*/
 body {
     font-family: "Raleway", sans-serif;
-    margin: 2rem;
-    width: 100%;
-    @media screen (min-width: 1000px);
+    margin: 4%;
+    border: 1px solid blue;
+    box-sizing: border-box;
     /*color: #202020;*/
 }
 * {
@@ -12,8 +105,6 @@ body {
 /*HEADER*/
 .rs-header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .rs-header_nav {
@@ -21,7 +112,6 @@ body {
     list-style-type: none;
 }
 .rs-header-nav_items {
-    margin: 0 3rem;
     font-size: 1rem;
 }
 
@@ -30,11 +120,6 @@ body {
     color: #202020;
 }
 
-.rs-header-nav_links:hover {
-    color: #0065fc;
-    border-top: 1px solid #0065fc;
-    padding-top: 15px;
-}
 .inscription {
     color: #0065fc;
     font-weight: bold;
