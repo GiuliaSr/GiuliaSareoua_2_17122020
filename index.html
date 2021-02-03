@@ -55,7 +55,7 @@
                 </p>
 
                 <form class="research_bar" method="POST">
-                    <label class="research-bar_iconbox" for="search">
+                    <label class="research-bar_iconbox">
                         <i class="fas fa-map-marker-alt fa-fw"></i>
                     </label>
                     <input
@@ -119,9 +119,18 @@
                             <figure class="city-cardcontent">
                                 <img
                                     class="city-cardpict"
-                                    src="images/desktop/hebergements_large/1_auberge_cannebiere.jpg"
+                                    srcset="
+                                        images/mobile/hebergements_small/1_auberge_cannebiere.jpg     750w,
+                                        images/tablette/hebergements_medium/1_auberge_cannebiere.jpg 1499w,
+                                        images/desktop/hebergements_large/1_auberge_cannebiere.jpg   2997w
+                                    "
+                                    sizes="(max-device-width: 480px) ,
+                                    (min-width: 481px) and (max-width: 1100px),
+                                    (min-width: 1101px) "
+                                    src="images/desktop/hebergements_large/1_auberge_cannebiere.jpg, "
                                     alt="Photographie d'une chambre de l'auberge la Cannebière"
                                 />
+
                                 <figcaption
                                     class="city-carddescription-content"
                                 >
@@ -384,7 +393,7 @@
                             </figure>
                         </a>
                     </article>
-                    <article class="boxcard">
+                    <article class="boxcard popboxcard">
                         <a
                             class="cardlink"
                             href="liens_html/section1/lien8.html"
@@ -420,7 +429,7 @@
                             </figure>
                         </a>
                     </article>
-                    <article class="boxcard">
+                    <article class="boxcard popboxcard">
                         <a
                             class="cardlink"
                             href="liens_html/section1/lien9.html"

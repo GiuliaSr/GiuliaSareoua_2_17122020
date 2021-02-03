@@ -1,5 +1,5 @@
 /*DESKTOP*/
-@media screen and (min-width: 1270px) {
+@media screen and (min-width: 1101px) {
     body {
         margin: 3rem;
     }
@@ -41,6 +41,7 @@
         border-radius: 0px 15px 15px 0px;
         font-weight: bold;
         font-size: 1rem;
+        font-family: "Raleway", sans-serif;
     }
     .research-bar_button_mobile {
         display: none;
@@ -83,55 +84,61 @@
 
     .city-cardpict {
         width: 100%;
-        height: 8rem;
+        height: 10rem;
         object-fit: cover;
         border-radius: 20px 20px 0 0;
     }
     .city-carddescription-content {
-        margin-left: 1rem;
+        padding-left: 2%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-evenly;
     }
-    .city-carddescription {
-        margin: 0.3rem;
+    .hosting-carddescription {
+        margin: 2%;
     }
+
     /*aside*/
 
     .popbox {
-        width: 33%;
+        width: 30%;
+        display: flex;
+        flex-flow: column wrap;
         padding: 2rem;
-        display: grid;
-        grid-template-columns: 1;
-        grid-template-rows: 2rem 1fr 1fr 1fr;
-        row-gap: 2rem;
+        background-color: #f2f2f2;
+        justify-content: center;
     }
-    .hosting-boxfoot {
-        grid-row: 4/5;
-        grid-column: 1/4;
+    .boxcard {
+        margin-bottom: 1rem;
     }
-    .pop-carddescription-content {
-        width: 50%;
+    .popboxcard {
+        height: 25%;
+        margin: auto;
+        padding: 0.4rem;
+    }
+    .popboxtitle {
+        margin-bottom: 3%;
     }
     .pop-cardcontent {
-        margin: 0.4rem;
+        margin: auto;
         display: flex;
-        height: 9.4rem;
+        height: 100%;
     }
     .pop-cardpict {
-        width: 10rem;
+        width: 40%;
         height: 100%;
         object-fit: cover;
         border-radius: 15px 0 0 15px;
     }
     .pop-carddescription-content {
-        margin-left: 1rem;
+        margin-left: 5%;
         display: flex;
         flex-flow: column wrap;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
+
     .pop-carddescription {
-        margin: 0.3rem;
-    }
-    .hosting-carddescription {
-        margin: 0.3rem;
+        margin: 0.3%;
     }
     /*SECTION 2 ACTIVITIES*/
     .rs-activities {
@@ -174,14 +181,15 @@
         grid-row: 4/7;
     }
     .act-carddescription {
-        padding-left: 1rem;
+        padding-left: 5%;
+        box-sizing: border-box;
     }
     /*FOOTER*/
     .rs-footer {
         display: flex;
         background-color: #f2f2f2;
-        margin: 2rem -4% -4% -4%;
-        padding-left: 50px;
+        margin: 2rem -3rem -3rem -3rem;
+        padding-left: 3rem;
         justify-content: space-between;
         height: 12rem;
     }
@@ -193,7 +201,7 @@
     }
 }
 /*TABLETTE*/
-@media screen and (min-width: 481px) and (max-width: 1269px) {
+@media screen and (min-width: 481px) and (max-width: 1100px) {
     body {
         margin: 2rem;
     }
@@ -256,6 +264,7 @@
         border-radius: 0px 15px 15px 0px;
         font-weight: bold;
         font-size: 1rem;
+        font-family: "Raleway", sans-serif;
     }
     /*filtres*/
     .search-options_box {
@@ -288,23 +297,18 @@
     }
     .citybox {
         width: 100%;
-        /*padding: 2rem;*/
-        /*display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 2rem 1fr 1fr 2rem;
-        grid-column-gap: 2rem;
-        grid-row-gap: 2rem;*/
         order: 2;
         background-color: #fff;
-        justify-content: center;
+        justify-content: space-evenly;
         display: flex;
         flex-flow: row wrap;
     }
     .hostingboxtitle {
         width: 100%;
+        margin-top: 1rem;
     }
     .cityboxcard {
-        width: 30%;
+        width: 15rem;
         margin: 1rem;
     }
     .city-cardcontent {
@@ -317,48 +321,49 @@
         object-fit: cover;
         border-radius: 20px 20px 0 0;
     }
+
     .city-carddescription-content {
-        margin-left: 5%;
+        padding-left: 2%;
         display: flex;
         flex-flow: column wrap;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
-    .city-carddescription {
-        margin: 0.3rem;
+    .hosting-carddescription {
+        margin: 2%;
     }
     .hosting-boxfoot {
         width: 100%;
     }
     /*aside*/
+
     .popbox {
         width: 100%;
-        display: grid;
-        grid-template-columns: 1;
-        grid-template-rows: 2rem 1fr 1fr 1fr;
-        row-gap: 2rem;
-        margin-bottom: 2rem;
-        border: 1px solid #f2f2f2;
-        padding: 2rem;
-        box-shadow: 2px 1px 5px 2px rgb(209 209 209);
+        display: flex;
+        flex-flow: column wrap;
+        padding: 1rem;
         background-color: #f2f2f2;
+        justify-content: center;
+    }
+    .boxcard {
+        margin-bottom: 1rem;
     }
 
-    .hosting-boxfoot {
-        grid-row: 4/5;
-        grid-column: 1/4;
+    .popboxcard {
+        height: 25%;
+        margin: 1rem;
+        padding: 0.4rem;
     }
-    .hostingboxtitle {
-        grid-row: 1;
-        grid-column: 1/4;
+    .popboxtitle {
+        margin: 1rem;
     }
     .pop-cardcontent {
-        margin: 0.4rem;
+        margin: auto;
         display: flex;
-        height: 12rem;
+        height: 100%;
     }
     .pop-cardpict {
-        width: 35%;
-        height: 100%;
+        width: 40%;
+        height: 12rem;
         object-fit: cover;
         border-radius: 15px 0 0 15px;
     }
@@ -366,12 +371,10 @@
         margin-left: 5%;
         display: flex;
         flex-flow: column wrap;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
+
     .pop-carddescription {
-        margin: 0.3%;
-    }
-    .hosting-carddescription {
         margin: 0.3%;
     }
     /*SECTION 2 ACTIVITIES*/
@@ -428,10 +431,12 @@
         padding-left: 3%;
     }
     /*FOOTER*/
+
     .rs-footer {
         display: flex;
+        flex-flow: row wrap;
         background-color: #f2f2f2;
-        padding-left: 50px;
+        padding-left: 3rem;
         justify-content: space-between;
         height: 12rem;
         box-sizing: border-box;
@@ -558,17 +563,19 @@
     .rs-hosting {
         flex-flow: column wrap;
         width: 100%;
-        margin: -1rem;
     }
     .rs-hosting_box {
         width: 100%;
         box-sizing: border-box;
     }
     .citybox {
-        padding: 3%;
         display: flex;
         order: 2;
         flex-flow: column wrap;
+    }
+    .cityboxcard {
+        height: 13rem;
+        box-sizing: border-box;
     }
     .city-cardcontent {
         margin: 0.4rem;
@@ -576,7 +583,7 @@
 
     .city-cardpict {
         width: 100%;
-        height: 9rem;
+        height: 8rem;
         object-fit: cover;
         border-radius: 20px 20px 0 0;
     }
@@ -584,24 +591,58 @@
         margin-left: 5%;
         display: flex;
         flex-flow: column wrap;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
     .city-carddescription {
         margin: 0.3rem;
     }
     /*aside*/
     .popbox {
+        width: 100%;
+        display: flex;
+        flex-flow: column wrap;
+        background-color: #f2f2f2;
+        justify-content: center;
+    }
+    .boxcard {
+        margin-bottom: 2rem;
+    }
+
+    .popboxcard {
+        height: 10rem;
+
+        padding: 0.4rem;
+        box-sizing: border-box;
+    }
+    .popboxtitle {
+        margin: 1rem 0;
+    }
+    .pop-cardcontent {
+        margin: auto;
+        display: flex;
+        height: 100%;
+    }
+    .pop-cardpict {
+        width: 40%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 15px 0 0 15px;
+    }
+    .pop-carddescription-content {
+        margin-left: 5%;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+    }
+    .hosting-carddescription {
+        margin: 0;
+    }
+
+    /*.popbox {
         display: flex;
         flex-flow: column wrap;
         padding: 3%;
-
         background-color: #f2f2f2;
-        /* display: grid;
-        grid-template-columns: 1;
-        grid-template-rows: 2rem 1fr 1fr 1fr;
-        row-gap: 2rem;
-        margin: auto;
-        margin-bottom: 2rem;*/
     }
     .boxcard {
         margin-bottom: 2rem;
@@ -718,6 +759,7 @@ body {
     color: inherit;
     font-weight: bold;
     font-size: 1rem;
+    font-family: "Raleway", sans-serif;
 }
 
 /* filtres*/
