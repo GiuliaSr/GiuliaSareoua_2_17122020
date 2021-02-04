@@ -3,45 +3,32 @@
     body {
         margin: 3rem;
     }
-    /*HEADER*/
+    /*header*/
     .rs-header {
         justify-content: space-between;
         align-items: center;
     }
-    .rs-header-nav_items {
-        margin: 0 3rem;
-    }
     .inscription-mobile {
         display: none;
     }
+    .rs-header-nav_items {
+        margin: 0 3rem;
+    }
     .rs-header-nav_links:hover {
-        color: #0065fc;
         border-top: 1px solid #0065fc;
-        padding-top: 15px;
+        padding-top: 3rem;
     }
     /*section1*/
     .research_bar {
-        width: 25rem;
+        width: 50%;
     }
-    .research-bar_iconbox {
-        width: 12%;
-    }
-    .research-bar_citybox {
-        width: 60%;
-    }
+
     .research-bar_citybox {
         border: 1px solid #f2f2f2;
-        padding-left: 1rem;
     }
+
     .research-bar_button {
-        width: 30%;
-        background-color: #0065fc;
-        color: #fff;
-        border: 1px solid #0065fc;
-        border-radius: 0px 15px 15px 0px;
-        font-weight: bold;
-        font-size: 1rem;
-        font-family: "Raleway", sans-serif;
+        width: 7rem;
     }
     .research-bar_button_mobile {
         display: none;
@@ -50,19 +37,14 @@
     .search-options_box {
         height: 3rem;
         align-items: center;
+        justify-content: space-between;
+        width: 80%;
     }
-    .search-filters_box {
-        height: inherit;
-    }
-    .search-filters_box {
-        margin-right: 3rem;
-    }
-    .search_information {
-        margin-top: 1rem;
-    }
+
     /*SECTION 2 HEBERGEMENTS*/
     .rs-hosting_box {
         background-color: #f2f2f2;
+        border-radius: 2rem;
     }
     .hostingboxtitle {
         grid-row: 1;
@@ -86,7 +68,7 @@
         width: 100%;
         height: 10rem;
         object-fit: cover;
-        border-radius: 20px 20px 0 0;
+        border-radius: 2rem 2rem 0 0;
     }
     .city-carddescription-content {
         padding-left: 2%;
@@ -117,7 +99,7 @@
         padding: 0.4rem;
     }
     .popboxtitle {
-        margin-bottom: 3%;
+        margin-bottom: 1rem;
     }
     .pop-cardcontent {
         margin: auto;
@@ -128,7 +110,7 @@
         width: 40%;
         height: 100%;
         object-fit: cover;
-        border-radius: 15px 0 0 15px;
+        border-radius: 2rem 0 0 2rem;
     }
     .pop-carddescription-content {
         margin-left: 5%;
@@ -227,7 +209,6 @@
         align-items: center;
     }
     .rs-header-nav_links:hover {
-        color: #0065fc;
         height: inherit;
         width: 100%;
         display: flex;
@@ -236,57 +217,30 @@
         border-bottom: 1px solid #0065fc;
     }
     /*section1*/
-    .rs-searchbox {
-        margin: 0 2rem;
-    }
+
     .research-bar_button_mobile {
         display: none;
     }
     .research_bar {
-        width: 50%;
-        min-width: 315px;
+        width: 70%;
     }
-    .research-bar_iconbox {
-        width: 12%;
-    }
-    .research-bar_citybox {
-        width: 60%;
-    }
+
     .research-bar_citybox {
         border: 1px solid #f2f2f2;
-        padding-left: 1rem;
     }
     .research-bar_button {
-        width: 30%;
-        background-color: #0065fc;
-        color: #fff;
-        border: 1px solid #0065fc;
-        border-radius: 0px 15px 15px 0px;
-        font-weight: bold;
-        font-size: 1rem;
-        font-family: "Raleway", sans-serif;
+        width: 7rem;
     }
     /*filtres*/
     .search-options_box {
-        align-items: center;
-        display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-    }
-
-    .filtertitle {
-        height: 3rem;
-        width: 3rem;
-        display: flex;
-        align-items: center;
     }
 
     .search-filters_box {
         margin-bottom: 1rem;
     }
-    .search_information {
-        margin-top: 0;
-    }
+
     /*SECTION 2 HEBERGEMENTS*/
     .rs-hosting {
         flex-flow: column wrap;
@@ -294,6 +248,7 @@
     }
     .rs-hosting_box {
         box-sizing: border-box;
+        border-radius: 2rem;
     }
     .citybox {
         width: 100%;
@@ -317,9 +272,9 @@
 
     .city-cardpict {
         width: 100%;
-        height: 9rem;
+        height: 8rem;
         object-fit: cover;
-        border-radius: 20px 20px 0 0;
+        border-radius: 2rem 2rem 0 0;
     }
 
     .city-carddescription-content {
@@ -349,7 +304,7 @@
     }
 
     .popboxcard {
-        height: 25%;
+        height: 10rem;
         margin: 1rem;
         padding: 0.4rem;
     }
@@ -363,9 +318,9 @@
     }
     .pop-cardpict {
         width: 40%;
-        height: 12rem;
+        height: 10rem;
         object-fit: cover;
-        border-radius: 15px 0 0 15px;
+        border-radius: 2rem 0 0 2rem;
     }
     .pop-carddescription-content {
         margin-left: 5%;
@@ -378,14 +333,7 @@
         margin: 0.3%;
     }
     /*SECTION 2 ACTIVITIES*/
-    /* .rs-activities {
-        margin-top: 2rem;
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: 4rem 14rem 3% 3% 3% 14rem;
-        column-gap: 3%;
-        margin-bottom: 3%;
-    }*/
+
     .rs-activities {
         margin-top: 2rem;
         margin-bottom: 2rem;
@@ -439,8 +387,7 @@
         padding-left: 3rem;
         justify-content: space-between;
         height: 12rem;
-        box-sizing: border-box;
-        margin: 0 -2rem;
+        margin: 0 -2rem -2rem -2rem;
     }
 
     .rs-footer_box {
@@ -457,6 +404,9 @@
     .rs-header {
         flex-flow: column wrap;
     }
+    .inscription {
+        display: none;
+    }
     .rs-mobile_header {
         display: flex;
         justify-content: space-between;
@@ -466,9 +416,6 @@
         color: #0065fc;
         font-weight: bold;
         font-size: 1rem;
-    }
-    .inscription {
-        display: none;
     }
     .rs-header_nav {
         margin: auto;
@@ -483,7 +430,6 @@
         align-items: center;
     }
     .rs-header-nav_links:hover {
-        color: #0065fc;
         height: inherit;
         width: 100%;
         display: flex;
@@ -493,44 +439,35 @@
     }
     /*section1*/
     .rs-searchbox {
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin: 0 2%;
     }
     .research_bar {
         width: 100%;
         padding: 0;
-    }
-    .research-bar_button {
-        display: none;
-    }
-    .research-bar_iconbox {
-        width: 12%;
-    }
-    .research-bar_citybox {
-        width: 80%;
     }
     .research-bar_citybox {
         border-top: 1px solid #f2f2f2;
         border-left: 1px solid #f2f2f2;
         border-bottom: 1px solid #f2f2f2;
         border-right: 1px solid transparent;
-        padding-left: 1rem;
+    }
+    .research-bar_button {
+        display: none;
     }
     .research-bar_button_mobile {
-        width: 12%;
+        width: 3rem;
         color: #fff;
         font-weight: bold;
-        font-size: 1rem;
         display: flex;
         justify-content: center;
         align-items: center;
         border-top: 1px solid #f2f2f2;
-        border-top-right-radius: 15px;
+        border-top-right-radius: 1rem;
         border-bottom: 1px solid #f2f2f2;
-        border-bottom-right-radius: 15px;
+        border-bottom-right-radius: 1rem;
     }
     .fa-search {
-        border-radius: 15px;
+        border-radius: 1rem;
         height: 3rem;
         width: 3rem;
         display: flex;
@@ -540,25 +477,16 @@
     }
     /*filtres*/
     .search-options_box {
-        height: auto;
-        width: 100%;
-        flex-flow: row wrap;
+        flex-wrap: wrap;
         justify-content: space-between;
-        padding: 0;
-    }
-    .search-filters_box {
-        height: 3rem;
     }
     .search_filters {
         margin-bottom: 1rem;
     }
     .filtertitle {
-        width: 20rem;
-        margin: 0;
+        width: 15rem;
     }
-    .searchpet {
-        margin-right: 3rem;
-    }
+
     /*SECTION 2 HEBERGEMENTS*/
     .rs-hosting {
         flex-flow: column wrap;
@@ -585,7 +513,7 @@
         width: 100%;
         height: 8rem;
         object-fit: cover;
-        border-radius: 20px 20px 0 0;
+        border-radius: 2rem 2rem 0 0;
     }
     .city-carddescription-content {
         margin-left: 5%;
@@ -598,11 +526,13 @@
     }
     /*aside*/
     .popbox {
-        width: 100%;
+        width: 110%;
         display: flex;
         flex-flow: column wrap;
         background-color: #f2f2f2;
         justify-content: center;
+        padding: 0 2rem;
+        margin-left: -1rem;
     }
     .boxcard {
         margin-bottom: 2rem;
@@ -626,7 +556,7 @@
         width: 40%;
         height: 100%;
         object-fit: cover;
-        border-radius: 15px 0 0 15px;
+        border-radius: 2rem 0 0 2rem;
     }
     .pop-carddescription-content {
         margin-left: 5%;
@@ -638,41 +568,6 @@
         margin: 0;
     }
 
-    /*.popbox {
-        display: flex;
-        flex-flow: column wrap;
-        padding: 3%;
-        background-color: #f2f2f2;
-    }
-    .boxcard {
-        margin-bottom: 2rem;
-    }
-    .popboxtitle {
-        margin-bottom: 3%;
-    }
-    .pop-cardcontent {
-        margin: 0.4rem;
-        display: flex;
-        height: 9.4rem;
-    }
-    .pop-cardpict {
-        width: 40%;
-        height: 100%;
-        object-fit: cover;
-        border-radius: 15px 0 0 15px;
-    }
-    .pop-carddescription-content {
-        margin-left: 5%;
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: space-between;
-    }
-    .pop-carddescription {
-        margin: 0.3%;
-    }
-    .hosting-carddescription {
-        margin: 0.3%;
-    }
     /*section3 activities*/
     .rs-activities {
         display: flex;
@@ -696,7 +591,8 @@
 /*ALL*/
 body {
     font-family: "Raleway", sans-serif;
-    /*color: #202020;*/
+    color: #202020;
+    font-size: 15px;
 }
 
 /*header*/
@@ -708,13 +604,13 @@ body {
     display: flex;
     list-style-type: none;
 }
-.rs-header-nav_items {
-    font-size: 1rem;
-}
 
 .rs-header-nav_links {
     text-decoration: none;
     color: #202020;
+}
+.rs-header-nav_links:hover {
+    color: #0065fc;
 }
 
 .inscription {
@@ -723,24 +619,18 @@ body {
     margin-right: inherit;
 }
 
-/*section1*/
+/*section1 search*/
 .rs-searchbox {
     margin-bottom: 1rem;
 }
-.research_title {
+.search_title {
     font-size: 1.5rem;
     font-weight: bold;
-    margin-top: 20px;
-}
-.research_description {
-    font-size: 0.8rem;
 }
 
 .research_bar {
     display: flex;
     height: 3rem;
-    border: transparent 1px solid;
-    margin: 20px 0 20px 0;
 }
 
 .research-bar_iconbox {
@@ -748,11 +638,21 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #f2f2f2;
-    border-radius: 15px 0px 0px 15px;
+    border-radius: 1rem 0px 0px 1rem;
+    width: 3rem;
 }
-
-.fa-map-marker-alt {
+.research-bar_citybox {
+    padding-left: 1rem;
+    width: 60%;
+}
+.research-bar_button {
+    background-color: #0065fc;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 0 1rem 1rem 0;
+    font-weight: bold;
     font-size: 1rem;
+    font-family: "Raleway", sans-serif;
 }
 
 ::placeholder {
@@ -778,7 +678,7 @@ body {
 }
 .search_filters {
     border: 1px solid #deebff;
-    border-radius: 25px;
+    border-radius: 3rem;
 }
 .search_filters:hover i {
     background-color: #0065fc;
@@ -793,8 +693,8 @@ body {
 
 .search_filtername {
     padding: 1rem;
-    font-size: 1rem;
-    font-weight: 900;
+    font-size: inherit;
+    font-weight: bold;
 }
 .filtertitle {
     padding: 0;
@@ -803,12 +703,11 @@ body {
     background-color: #deebff;
     height: inherit;
     width: 3rem;
-    border-radius: 25px;
+    border-radius: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #0065fc;
-    font-size: 1rem;
 }
 
 .search_information {
@@ -817,11 +716,10 @@ body {
 }
 .information_icone {
     margin-right: 1rem;
-    width: 1.2rem;
-    height: 1.2rem;
+    width: 2rem;
+    height: 2rem;
     border: 1px solid #f2f2f2;
-    font-size: 0.8rem;
-    border-radius: 20px;
+    border-radius: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -832,15 +730,6 @@ body {
 
 .rs-hosting {
     display: flex;
-    justify-content: space-between;
-}
-.rs-hosting_box {
-    border-radius: 20px;
-}
-
-.hostingboxtitle {
-    display: flex;
-    align-items: center;
 }
 
 .hosting-boxfoot {
@@ -849,7 +738,7 @@ body {
     display: flex;
     align-items: center;
 }
-/*COMMUN AUX DEUX SECTIONS*/
+/*commun section 1 hosting et pop*/
 
 .bluestar {
     color: #0065fc;
@@ -857,14 +746,15 @@ body {
 .greystar {
     color: #f2f2f2;
 }
-/*COMMUN AUX TROIS SECTIONS*/
+/*commun section 2 et 3*/
 .boxtitle {
     font-weight: bold;
-    font-size: 1rem;
+    display: flex;
+    align-items: center;
 }
 .boxcard {
     background-color: #fff;
-    border-radius: 20px;
+    border-radius: 2rem;
     box-shadow: 2px 1px 5px 2px rgb(209 209 209);
     overflow: hidden;
 }
@@ -875,7 +765,6 @@ body {
     color: inherit;
     text-decoration: none;
 }
-/* */
 
 /*aside*/
 
