@@ -488,14 +488,14 @@
     .filtertitle {
         width: 15rem;
     }
-    .search_filters:focus .search_icone {
+    .search_filters:active .search_icone {
         background-color: #0065fc;
         color: #fff;
     }
-    .search_filters:focus .search_filtername {
+    .search_filters:active .search_filtername {
         color: #0065fc;
     }
-    .search_filters:focus {
+    .search_filters:active {
         background-color: #deebff;
     }
     /*SECTION 2 HEBERGEMENTS*/
