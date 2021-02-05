@@ -1,5 +1,5 @@
 /*DESKTOP*/
-/**/
+
 @media screen and (min-width: 1101px) {
     body {
         margin: 3rem;
@@ -683,11 +683,11 @@ body {
     border: 1px solid #deebff;
     border-radius: 3rem;
 }
-.search_filters:hover i {
+.search_filters:hover .search_icone {
     background-color: #0065fc;
     color: #fff;
 }
-.search_filters:hover h2 {
+.search_filters:hover .search_filtername {
     color: #0065fc;
 }
 .search_filters:hover {
@@ -695,9 +695,11 @@ body {
 }
 
 .search_filtername {
-    padding: 1rem;
-    font-size: inherit;
+    font-size: 1rem;
     font-weight: bold;
+}
+.cbg {
+    padding: 1rem;
 }
 .filtertitle {
     padding: 0;
