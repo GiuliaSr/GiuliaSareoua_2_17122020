@@ -497,7 +497,7 @@
     }
     .search_filters:focus {
         background-color: #deebff;
-
+    }
     /*SECTION 2 HEBERGEMENTS*/
     .rs-hosting {
         flex-flow: column wrap;
