@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <title>Réservia</title>
         <meta name="viewport" content="width=device-width" />
-        <link rel="stylesheet" href="stylesheet_desktop.css" />
+        <link rel="stylesheet" href="stylesheet.css" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
             href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
@@ -17,9 +17,8 @@
     </head>
 
     <body>
-        <!---->
         <header class="rs-header">
-            <div class="rs-mobile_header">
+            <div class="rs-header_mobile">
                 <img
                     class="rs-header_logo"
                     src="images/logo/Reservia.svg"
@@ -30,12 +29,12 @@
             <nav class="rs-header_nav">
                 <ul class="rs-header_nav">
                     <li class="rs-header-nav_items rs-header-nav_items_mobile">
-                        <a class="rs-header-nav_links" href="#ancre1"
+                        <a class="rs-header-nav_links" href="#Hébergements"
                             >Hébergements</a
                         >
                     </li>
                     <li class="rs-header-nav_items rs-header-nav_items_mobile">
-                        <a class="rs-header-nav_links" href="#ancre2">
+                        <a class="rs-header-nav_links" href="#Activités">
                             Activités</a
                         >
                     </li>
@@ -51,127 +50,103 @@
                 <h1 class="search_title">
                     Trouvez votre hébergement pour des vacances de rêve
                 </h1>
-                <p class="research_description">
-                    En plein centre ville ou en pleine nature
-                </p>
+                <p>En plein centre ville ou en pleine nature</p>
 
-                <form class="research_bar" method="POST">
-                    <label class="research-bar_iconbox">
+                <form class="search_bar" method="POST">
+                    <label class="search-bar_iconbox">
                         <i class="fas fa-map-marker-alt fa-fw"></i>
                     </label>
                     <input
-                        class="research-bar_citybox"
+                        class="search-bar_citybox"
                         type="text"
-                        name="townresearch"
+                        name="townsearch"
                         placeholder="Marseille, France"
                     />
                     <input
-                        class="research-bar_button"
+                        class="search-bar_button"
                         type="button"
                         value="Rechercher"
                     />
-                    <div class="research-bar_button_mobile">
+                    <div class="search-bar_button_mobile">
                         <div class="search-icone-mobile">
                             <i class="fas fa-search"></i>
                         </div>
                     </div>
                 </form>
 
-                <div class="search-options_box">
-                    <div class="search-filters_box">
-                        <h2 class="search_filtername filtertitle">Filtres</h2>
-                    </div>
-                    <div class="search-filters_box search_filters">
-                        <div class="search_icone">
+                <div class="filters_container">
+                    <h2 class="filters_title filters-main_title">Filtres</h2>
+                    <div class="filters_box">
+                        <div class="filters_icons">
                             <i class="fas fa-money-bill-wave"></i>
                         </div>
-                        <div class="search_filtername">
-                            <h2 class="search_filtername cbg">Économique</h2>
+                        <div class="filters_title">
+                            <h2 class="filters_title filter_name">
+                                Économique
+                            </h2>
                         </div>
                     </div>
-                    <div class="search-filters_box search_filters">
-                        <div class="search_icone">
+                    <div class="filters_box">
+                        <div class="filters_icons">
                             <i class="fas fa-child"></i>
                         </div>
-                        <div class="search_filtername">
-                            <h2 class="search_filtername cbg">Familial</h2>
+                        <div class="filters_title">
+                            <h2 class="filters_title filter_name">Familial</h2>
                         </div>
                     </div>
-                    <div class="search-filters_box search_filters">
-                        <div class="search_icone">
+                    <div class="filters_box">
+                        <div class="filters_icons">
                             <i class="fas fa-heart"></i>
                         </div>
-                        <div class="search_filtername">
-                            <h2 class="search_filtername cbg">Romantique</h2>
+                        <div class="filters_title">
+                            <h2 class="filters_title filter_name">
+                                Romantique
+                            </h2>
                         </div>
                     </div>
-                    <div class="search-filters_box search_filters">
-                        <div class="search_icone">
+                    <div class="filters_box">
+                        <div class="filters_icons">
                             <i class="fas fa-dog"></i>
                         </div>
-                        <div class="search_filtername">
-                            <h2 class="search_filtername cbg">
+                        <div class="filters_title">
+                            <h2 class="filters_title filter_name">
                                 Animaux autorisés
                             </h2>
                         </div>
                     </div>
                 </div>
-                <!--
-                <ul class="search-options_box">
-                    <li class="search-filters_box">
-                        <h2 class="search_filtername filtertitle">Filtres</h2>
-                    </li>
-                    <li
-                        class="search-filters_box search_filters search-filter1"
-                    >
-                        <i class="fas fa-money-bill-wave search_icone"></i>
-                        <h2 class="search_filtername">Économique</h2>
-                    </li>
-                    <li class="search-filters_box search_filters">
-                        <i class="fas fa-child search_icone"></i>
-                        <h2 class="search_filtername">Familial</h2>
-                    </li>
-                    <li class="search-filters_box search_filters">
-                        <i class="fas fa-heart search_icone"></i>
-                        <h2 class="search_filtername">Romantique</h2>
-                    </li>
-                    <li class="search-filters_box search_filters">
-                        <i class="fas fa-dog search_icone"></i>
-                        <h2 class="search_filtername">Animaux autorisés</h2>
-                    </li>
-                </ul>
-                -->
 
                 <div class="search_information">
-                    <div class="information_icone">
+                    <div class="search-information_icon">
                         <i class="fas fa-info"></i>
                     </div>
-                    <p class="research_description">
+                    <p class="search-information_text">
                         Plus de 500 logements sont disponibles dans cette ville
                     </p>
                 </div>
             </section>
 
-            <section class="rs-hosting" id="ancre1">
-                <div class="rs-hosting_box citybox">
-                    <header class="boxtitle hostingboxtitle">
+            <section class="rs-hosting" id="Hébergements">
+                <div class="rs-hosting_box rs-hosting-box_city">
+                    <header class="rs-hosting-activity_header hosting-header">
                         <h2>Hébergements à Marseille</h2>
                     </header>
-                    <article class="boxcard cityboxcard">
-                        <a
-                            class="cardlink"
-                            href="liens_html/section1/lien1.html"
-                        >
-                            <figure class="city-cardcontent">
+                    <article
+                        class="hosting-activity-card_box hosting-city-card_box"
+                    >
+                        <a class="cardlink" href="#">
+                            <figure class="city-card-content_box">
                                 <img
                                     class="city-cardpict"
-                                    src="images/desktop/hebergements_large/1_auberge_cannebiere.jpg "
+                                    srcset="
+                                        images/mobile/hebergements_small/1_auberge_cannebiere.jpg     900w,
+                                        images/tablette/hebergements_medium/1_auberge_cannebiere.jpg 1100w
+                                    "
+                                    src=" images/tablette/hebergements_medium/1_auberge_cannebiere.jpg "
                                     alt="Photographie d'une chambre de l'auberge la Cannebière"
                                 />
 
-                                <figcaption
-                                    class="city-carddescription-content"
-                                >
+                                <figcaption class="city-card-description_box">
                                     <h3
                                         class="hosting-carddescription cardname"
                                     >
@@ -196,20 +171,17 @@
                         </a>
                     </article>
 
-                    <article class="boxcard cityboxcard">
-                        <a
-                            class="cardlink"
-                            href="liens_html/section1/lien2.html"
-                        >
-                            <figure class="city-cardcontent">
+                    <article
+                        class="hosting-activity-card_box hosting-city-card_box"
+                    >
+                        <a class="cardlink" href="#">
+                            <figure class="city-card-content_box">
                                 <img
                                     class="city-cardpict"
                                     src="images/desktop/hebergements_large/2_hotel_port.jpg"
                                     alt="Photographie d'une chambre de l'hôtel du Port"
                                 />
-                                <figcaption
-                                    class="city-carddescription-content"
-                                >
+                                <figcaption class="city-card-description_box">
                                     <h3
                                         class="hosting-carddescription cardname"
                                     >
@@ -234,20 +206,17 @@
                         </a>
                     </article>
 
-                    <article class="boxcard cityboxcard">
-                        <a
-                            class="cardlink"
-                            href="liens_html/section1/lien3.html"
-                        >
-                            <figure class="city-cardcontent">
+                    <article
+                        class="hosting-activity-card_box hosting-city-card_box"
+                    >
+                        <a class="cardlink" href="#">
+                            <figure class="city-card-content_box">
                                 <img
                                     class="city-cardpict"
                                     src="images/desktop/hebergements_large/3_hotel_mouettes.jpg"
                                     alt="Photographie d'une chambre de l'hôtel les Mouettes"
                                 />
-                                <figcaption
-                                    class="city-carddescription-content"
-                                >
+                                <figcaption class="city-card-description_box">
                                     <h3
                                         class="hosting-carddescription cardname"
                                     >
@@ -272,20 +241,17 @@
                         </a>
                     </article>
 
-                    <article class="boxcard cityboxcard">
-                        <a
-                            class="cardlink"
-                            href="liens_html/section1/lien4.html"
-                        >
-                            <figure class="city-cardcontent">
+                    <article
+                        class="hosting-activity-card_box hosting-city-card_box"
+                    >
+                        <a class="cardlink" href="#">
+                            <figure class="city-card-content_box">
                                 <img
                                     class="city-cardpict"
                                     src="images/desktop/hebergements_large/4_hotel_mer.jpg"
                                     alt="Photographie d'une chambre de l'hôtel de la Mer"
                                 />
-                                <figcaption
-                                    class="city-carddescription-content"
-                                >
+                                <figcaption class="city-card-description_box">
                                     <h3
                                         class="hosting-carddescription cardname"
                                     >
@@ -310,20 +276,17 @@
                         </a>
                     </article>
 
-                    <article class="boxcard cityboxcard">
-                        <a
-                            class="cardlink"
-                            href="liens_html/section1/lien5.html"
-                        >
-                            <figure class="city-cardcontent">
+                    <article
+                        class="hosting-activity-card_box hosting-city-card_box"
+                    >
+                        <a class="cardlink" href="#">
+                            <figure class="city-card-content_box">
                                 <img
                                     class="city-cardpict"
                                     src="images/desktop/hebergements_large/5_auberge_panier.jpg"
                                     alt="Photographie d'une chambre de l'auberge le Panier"
                                 />
-                                <figcaption
-                                    class="city-carddescription-content"
-                                >
+                                <figcaption class="city-card-description_box">
                                     <h3
                                         class="hosting-carddescription cardname"
                                     >
@@ -348,20 +311,17 @@
                         </a>
                     </article>
 
-                    <article class="boxcard cityboxcard">
-                        <a
-                            class="cardlink"
-                            href="liens_html/section1/lien6.html"
-                        >
-                            <figure class="city-cardcontent">
+                    <article
+                        class="hosting-activity-card_box hosting-city-card_box"
+                    >
+                        <a class="cardlink" href="#">
+                            <figure class="city-card-content_box">
                                 <img
                                     class="city-cardpict"
                                     src="images/desktop/hebergements_large/6_hotel_amina.jpg"
                                     alt="Photographie d'une chambre de l'hôtel chez Amina"
                                 />
-                                <figcaption
-                                    class="city-carddescription-content"
-                                >
+                                <figcaption class="city-card-description_box">
                                     <h3
                                         class="hosting-carddescription cardname"
                                     >
@@ -390,24 +350,23 @@
                     </footer>
                 </div>
 
-                <aside class="rs-hosting_box popbox">
-                    <header class="boxtitle popboxtitle">
+                <aside class="rs-hosting_box rs-hosting-box_pop">
+                    <header class="rs-hosting-activity_header pop-header">
                         <h2>Les plus populaires</h2>
                         <i class="fas fa-chart-line"></i>
                     </header>
-                    <article class="boxcard popboxcard">
-                        <a
-                            class="cardlink"
-                            href="liens_html/section1/lien7.html"
-                        >
-                            <figure class="pop-cardcontent">
+                    <article
+                        class="hosting-activity-card_box hosting-pop-card_box"
+                    >
+                        <a class="cardlink" href="#">
+                            <figure class="pop-card-content_box">
                                 <img
                                     class="pop-cardpict"
                                     src="images/desktop/hebergements_large/7_hotel_soleil.jpg"
                                     alt="Photographie d'une chambre de l'hôtel Le soleil du matin"
                                 />
 
-                                <figcaption class="pop-carddescription-content">
+                                <figcaption class="pop-card-description_box">
                                     <h3
                                         class="hosting-carddescription cardname"
                                     >
@@ -431,19 +390,18 @@
                             </figure>
                         </a>
                     </article>
-                    <article class="boxcard popboxcard">
-                        <a
-                            class="cardlink"
-                            href="liens_html/section1/lien8.html"
-                        >
-                            <figure class="pop-cardcontent">
+                    <article
+                        class="hosting-activity-card_box hosting-pop-card_box"
+                    >
+                        <a class="cardlink" href="#">
+                            <figure class="pop-card-content_box">
                                 <img
                                     class="pop-cardpict"
                                     src="images/desktop/hebergements_large/8_chambres_hotes.jpg"
                                     alt="Photographie d'une chambre des chambres d'hôtes Au coeur de l'eau"
                                 />
 
-                                <figcaption class="pop-carddescription-content">
+                                <figcaption class="pop-card-description_box">
                                     <h3
                                         class="hosting-carddescription cardname"
                                     >
@@ -467,19 +425,18 @@
                             </figure>
                         </a>
                     </article>
-                    <article class="boxcard popboxcard">
-                        <a
-                            class="cardlink"
-                            href="liens_html/section1/lien9.html"
-                        >
-                            <figure class="pop-cardcontent">
+                    <article
+                        class="hosting-activity-card_box hosting-pop-card_box"
+                    >
+                        <a class="cardlink" href="#">
+                            <figure class="pop-card-content_box">
                                 <img
                                     class="pop-cardpict"
                                     src="images/desktop/hebergements_large/9_hotel_bleu.jpg"
                                     alt="Photographie d'une chambre de l'hôtel Tout bleu et Blanc"
                                 />
 
-                                <figcaption class="pop-carddescription-content">
+                                <figcaption class="pop-card-description_box">
                                     <h3
                                         class="hosting-carddescription cardname"
                                     >
@@ -506,12 +463,12 @@
                 </aside>
             </section>
 
-            <section class="rs-activities" id="ancre2">
-                <header class="boxtitle actboxtitle">
+            <section class="rs-activity" id="Activités">
+                <header class="rs-hosting-activity_header activity-header">
                     <h2>Activités à Marseille</h2>
                 </header>
-                <article class="boxcard actcard1 actcard">
-                    <a class="cardlink" href="liens_html/section2/lien2_1.html">
+                <article class="hosting-activity-card_box actcard1 actcard">
+                    <a class="cardlink" href="#">
                         <figure class="act-cardcontent">
                             <img
                                 class="act-cardpict actpictstyle1"
@@ -526,8 +483,8 @@
                     </a>
                 </article>
 
-                <article class="boxcard actcard2 actcard">
-                    <a class="cardlink" href="liens_html/section2/lien2_2.html">
+                <article class="hosting-activity-card_box actcard2 actcard">
+                    <a class="cardlink" href="#">
                         <figure class="act-cardcontent">
                             <img
                                 class="act-cardpict actpictstyle2"
@@ -540,8 +497,8 @@
                         </figure>
                     </a>
                 </article>
-                <article class="boxcard actcard3 actcard">
-                    <a class="cardlink" href="liens_html/section2/lien2_3.html">
+                <article class="hosting-activity-card_box actcard3 actcard">
+                    <a class="cardlink" href="#">
                         <figure class="act-cardcontent">
                             <img
                                 class="act-cardpict actpictstyle3"
@@ -554,8 +511,8 @@
                         </figure>
                     </a>
                 </article>
-                <article class="boxcard actcard4 actcard">
-                    <a class="cardlink" href="liens_html/section2/lien2_4.html">
+                <article class="hosting-activity-card_box actcard4 actcard">
+                    <a class="cardlink" href="#">
                         <figure class="act-cardcontent">
                             <img
                                 class="act-cardpict actpictstyle1"
@@ -570,8 +527,8 @@
                         </figure>
                     </a>
                 </article>
-                <article class="boxcard actcard5 actcard">
-                    <a class="cardlink" href="liens_html/section2/lien2_5.html">
+                <article class="hosting-activity-card_box actcard5 actcard">
+                    <a class="cardlink" href="#">
                         <figure class="act-cardcontent">
                             <img
                                 class="act-cardpict actpictstyle3"
@@ -584,8 +541,8 @@
                         </figure>
                     </a>
                 </article>
-                <article class="boxcard actcard6 actcard">
-                    <a class="cardlink" href="liens_html/section2/lien2_6.html">
+                <article class="hosting-activity-card_box actcard6 actcard">
+                    <a class="cardlink" href="#">
                         <figure class="act-cardcontent">
                             <img
                                 class="act-cardpict actpictstyle2"
