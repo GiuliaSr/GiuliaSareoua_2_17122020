@@ -40,7 +40,7 @@
         height: 3rem;
         align-items: center;
         justify-content: space-between;
-        width: 70%;
+        width: 80%;
     }
 
     /*SECTION 2 HEBERGEMENTS*/
@@ -159,12 +159,12 @@
         padding-left: 3rem;
         justify-content: space-between;
         height: 12rem;
+        align-items: center;
     }
 
     .rs-footer_box {
         width: 30%;
         height: 60%;
-        margin: auto;
     }
 }
 /*TABLETTE*/
@@ -348,17 +348,17 @@
 
     .rs-footer {
         display: flex;
-        flex-flow: row wrap;
         background-color: #f2f2f2;
-        padding-left: 3rem;
+        margin: 0 -2rem -2rem -2rem;
+        padding-left: 2rem;
         justify-content: space-between;
         height: 12rem;
-        margin: 0 -2rem -2rem -2rem;
+        align-items: center;
     }
 
     .rs-footer_box {
         width: 30%;
-        margin: auto;
+        height: 60%;
     }
 }
 /*MOBILE*/
@@ -377,16 +377,19 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        /* margin-right: 1rem;*/
     }
     .inscription-mobile {
         color: #0065fc;
         font-weight: bold;
         font-size: 1rem;
+        text-decoration: none;
     }
+
     .rs-header_nav {
         margin: auto;
-        width: 100%;
         padding: 0;
+        width: 100%;
     }
     .rs-header-nav_items_mobile {
         width: 50%;
@@ -394,6 +397,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        border-bottom: 1px solid #f2f2f2;
     }
     .rs-header-nav_links:hover {
         height: inherit;
@@ -404,9 +408,7 @@
         border-bottom: 1px solid #0065fc;
     }
     /*section1*/
-    .rs-searchbox {
-        margin: 0 2%;
-    }
+
     .search_bar {
         width: 100%;
         padding: 0;
@@ -452,16 +454,6 @@
     .filters-main_title {
         width: 15rem;
     }
-    .filters_box:active .filters_icons {
-        background-color: #0065fc;
-        color: #fff;
-    }
-    .filters_box:active .filters_title {
-        color: #0065fc;
-    }
-    .filters_box:active {
-        background-color: #deebff;
-    }
     /*SECTION 2 HEBERGEMENTS*/
     .rs-hosting {
         flex-flow: column wrap;
@@ -491,7 +483,7 @@
     /*aside*/
     .rs-hosting-box_pop {
         width: 110%;
-        padding: 0 2rem;
+        padding: 0 1rem;
         margin-left: -1rem;
     }
     .hosting-activity-card_box {
@@ -500,7 +492,6 @@
 
     .hosting-pop-card_box {
         height: 10rem;
-
         padding: 0.4rem;
         box-sizing: border-box;
     }
@@ -527,9 +518,10 @@
     .rs-activity {
         display: flex;
         flex-flow: column wrap;
+        margin-bottom: 1rem;
     }
     .actcard {
-        height: 14rem;
+        height: 13rem;
     }
     .act-carddescription {
         padding-left: 3%;
@@ -540,7 +532,7 @@
         margin: -1rem;
     }
     .rs-footer_box {
-        margin-left: 15%;
+        margin-left: 1rem;
     }
 }
 /*ALL*/
@@ -572,6 +564,7 @@ body {
     color: #0065fc;
     font-weight: bold;
     margin-right: inherit;
+    text-decoration: none;
 }
 
 /*section1 search*/
@@ -593,7 +586,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #f2f2f2;
-    border-radius: 1rem 0px 0px 1rem;
+    border-radius: 1rem 0 0 1rem;
     width: 3rem;
 }
 .search-bar_citybox {
@@ -610,7 +603,7 @@ body {
     font-family: "Raleway", sans-serif;
 }
 
-::placeholder {
+.search-bar_citybox::placeholder {
     color: inherit;
     font-weight: bold;
     font-size: 1rem;
