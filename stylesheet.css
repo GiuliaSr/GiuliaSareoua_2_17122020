@@ -123,31 +123,31 @@
         margin-bottom: 2rem;
     }
 
-    .actcard1 {
+    .activity-card-box_1 {
         grid-column: 1;
         grid-row: 2/7;
     }
-    .actcard2 {
+    .activity-card-box_2 {
         grid-column: 2;
         grid-row: 2/5;
     }
-    .actcard3 {
+    .activity-card-box_3 {
         grid-column: 2/3;
         grid-row: 6/7;
     }
-    .actcard4 {
+    .activity-card-box_4 {
         grid-column: 3;
         grid-row: 2/7;
     }
-    .actcard5 {
+    .activity-card-box_5 {
         grid-column: 4;
         grid-row: 2/3;
     }
-    .actcard6 {
+    .activity-card-box_6 {
         grid-column: 4;
         grid-row: 4/7;
     }
-    .act-carddescription {
+    .act-card-description_box {
         padding-left: 5%;
         box-sizing: border-box;
     }
@@ -317,31 +317,31 @@
         margin-bottom: 2rem;
     }
 
-    .actcard1 {
+    .activity-card-box_1 {
         grid-column: 1;
         grid-row: 2/4;
     }
-    .actcard2 {
+    .activity-card-box_2 {
         grid-column: 3;
         grid-row: 2/3;
     }
-    .actcard3 {
+    .activity-card-box_3 {
         grid-column: 3;
         grid-row: 3/4;
     }
-    .actcard4 {
+    .aactivity-card-box_4 {
         grid-column: 1;
         grid-row: 4/5;
     }
-    .actcard5 {
+    .activity-card-box_5 {
         grid-column: 1;
         grid-row: 5/6;
     }
-    .actcard6 {
+    .activity-card-box_6 {
         grid-column: 3;
         grid-row: 4/6;
     }
-    .act-carddescription {
+    .act-card-description_box {
         padding-left: 3%;
     }
     /*FOOTER*/
@@ -520,10 +520,10 @@
         flex-flow: column wrap;
         margin-bottom: 1rem;
     }
-    .actcard {
+    .activity-card_box {
         height: 13rem;
     }
-    .act-carddescription {
+    .act-card-description_box {
         padding-left: 3%;
     }
     /*footer*/
@@ -755,7 +755,7 @@ body {
 
 /*SECTION 2 ACTIVITIES*/
 
-.act-cardcontent {
+.act-card-content_box {
     margin: 0;
     height: 100%;
     position: relative;
@@ -766,7 +766,7 @@ body {
     height: 100%;
 }
 
-.act-carddescription {
+.act-card-description_box {
     background-color: #fff;
     height: 4rem;
     width: 100%;
