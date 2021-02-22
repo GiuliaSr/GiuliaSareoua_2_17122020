@@ -11,22 +11,33 @@
         padding: 0;
     }
     .rs-header_nav ul {
+        height: 4rem;
         display: grid;
-        grid-template-columns: 8rem 1fr 1fr 1fr 1fr;
+        grid-template-columns: 8rem 1fr auto auto auto;
         grid-template-rows: 1fr;
         width: 100%;
     }
     .rs-header_wraplogo {
         grid-column: 1;
         grid-row: 1;
+        display: flex;
+        align-items: center;
     }
     .rs-header-nav_items {
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         align-items: center;
+        margin: 0 3rem;
+        padding: 1rem;
     }
     .rs-header-nav_items_1 {
         grid-column: 3;
+    }
+    .rs-header-nav_items_1:hover {
+        border-top: #0065fc 1px solid;
+    }
+    .rs-header-nav_items_2:hover {
+        border-top: #0065fc 1px solid;
     }
 
     /*SECTION 1 RECHERCHE*/
